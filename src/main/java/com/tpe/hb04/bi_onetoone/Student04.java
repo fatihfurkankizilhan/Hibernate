@@ -17,7 +17,7 @@ public class Student04 {
 
 
 
-    @OneToOne(mappedBy = "student")//sadece diary tablosunda FK oluşturur.mapped by kullanılmazsa her iki tabloda FK olur.
+    @OneToOne(mappedBy = "student")//sadece diary tablosunda FK oluşturur.Eslestirildıgınden haberı olması ıcın mapped by kullanılmazsa her iki tabloda FK olur.
     private Diary04 diary;
 
     public Student04() {

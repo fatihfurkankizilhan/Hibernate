@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
-@Entity
+@Entity//tablo ismi diary (ozel olarak isimlendirmedik)
 public class Diary {//owner of relation,ilişki sahibi
 
     @Id//PK

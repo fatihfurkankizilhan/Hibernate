@@ -1,5 +1,6 @@
 package com.tpe.hb02.embeddable;
 
+
 import javax.persistence.*;
 
 @Entity
